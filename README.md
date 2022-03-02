@@ -36,7 +36,7 @@ If we keep number of DAC samples in sine wave constant, then frequency of signal
 
 ## Hardware Setup
 
-![connection_diagram](images/Connection_diagram.jpg)
+![Connection_diagram](images/connection_diagram.jpg)
 
 This demo is implemented using PIC18F57Q43 Curiosity Nano Evaluation Kit. The sine wave generated on pin RA2 is observed on a logic analyzer/oscilloscope. Connect pin RA2 to analog channel of logic analyzer. Connect GND of CNANO to respective channel GND.
 
@@ -67,13 +67,16 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 
 ![system_settings](images/system_settings.png)
 
+
 - **Add DAC, DMA, FVR and TMR2 peripherals**
 
-![peripherals](images/peripherals.png)
+![peripherals](images/peripherals.jpg)
+
 
 - **DAC**
 
 ![dac](images/dac.jpg)
+
 
 - **DMA**
 
@@ -84,30 +87,38 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 5. Configure all Options in DMA1
 6. Click on DMA module and configure the settings
 
-![dma1](images/dma1.png)
+![dma1](images/dma1.jpg)
 
-![dma2](images/dma2.png)
 
-![dma3](images/dma3.png)
+![dma2](images/dma2.jpg)
+
+
+![dma3](images/dma3.jpg)
+
 
 - **FVR**
 
-![dac](images/fvr.jpg)
+![fvr](images/fvr.jpg)
+
 
 - **TMR2**
 
-![tmr](images/tmr2_1.jpg)
-![tmr](images/tmr2_2.jpg)
+![tmr2_1](images/tmr2_1.jpg)
+
+![tmr2_2](images/tmr2_2.jpg)
+
 
 - **Pin Grid View**
 
 ![pin_grid](images/pin_grid.png)
 
+
 - **Pins**
 
 Verify DAC output on pin RA2
 
-![pins](images/pins.png)
+![pins](images/pins.jpg)
+
 
 ## Summary
 
