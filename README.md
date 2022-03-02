@@ -67,18 +67,21 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 <br />
 
 ![system_settings](images/system_settings.png)
+
 <br />
 
 - **Add DAC, DMA, FVR and TMR2 peripherals**
 <br />
 
 ![peripherals](images/peripherals.png)
+
 <br />
 
 - **DAC**
 <br />
 
 ![dac](images/dac.jpg)
+
 <br />
 
 - **DMA**
@@ -91,33 +94,42 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 6. Click on DMA module and configure the settings
 
 <br />
+
 ![dma1](images/dma1.jpg)
+
 <br />
 
 ![dma2](images/dma2.jpg)
+
 <br />
 
 ![dma3](images/dma3.jpg)
+
 <br />
 
 - **FVR**
 <br />
 
 ![fvr](images/fvr.png)
+
 <br />
 
 - **TMR2**
 <br />
 
 ![tmr2_1](images/tmr2_1.jpg)
+
 <br />
+
 ![tmr2_2](images/tmr2_2.jpg)
+
 <br />
 
 - **Pin Grid View**
 <br />
 
 ![pin_grid](images/pin_grid.png)
+
 <br />
 
 - **Pins**
