@@ -64,21 +64,18 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 
 
 - **System Settings**
-<br />
 
 ![system_settings](images/system_settings.png)
 
 <br />
 
 - **Add DAC, DMA, FVR and TMR2 peripherals**
-<br />
 
 ![peripherals](images/peripherals.png)
 
 <br />
 
 - **DAC**
-<br />
 
 ![dac](images/dac.jpg)
 
@@ -108,14 +105,12 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 <br />
 
 - **FVR**
-<br />
 
 ![fvr](images/fvr.png)
 
 <br />
 
 - **TMR2**
-<br />
 
 ![tmr2_1](images/tmr2_1.jpg)
 
@@ -126,7 +121,7 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 <br />
 
 - **Pin Grid View**
-<br />
+
 
 ![pin_grid](images/pin_grid.png)
 
