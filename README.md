@@ -132,7 +132,7 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 Verify DAC output on pin RA2
 
 ![pins](images/pins.jpg)
-
+<br />
 
 ## Summary
 
