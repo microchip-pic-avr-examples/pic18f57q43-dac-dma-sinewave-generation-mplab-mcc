@@ -3,6 +3,8 @@
 
 # Sine Wave Generation using DAC and DMA of PIC18F57Q43 Microcontroller
 
+This code example demonstrates how to generate a 100 Hz sine wave without CPU intervention using the built-in DAC and DMA peripherals of the PIC microcontroller. Some compatible PIC18F-Q43 family of MCUs are: PIC18F27Q43, PIC18F47Q43, PIC18F57Q43.
+
 ## Related Documentation
 
 - [PIC18F57Q43 Data Sheet](https://www.microchip.com/DS40002147F)
