@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-dac-dma-sinewave-generation-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Sine Wave Generation using DAC and DMA of PIC18F57Q43 Microcontroller",
         "projectName": "pic18f57q43-dac-dma-sinewave-generation-mplab-mcc",
         "shortDescription": "This code example demonstrates how to generate a 100 Hz sine wave without CPU intervention using the built in DAC and DMA peripherals of the PIC microcontroller Some compatible PIC18F Q43 family of MCUs are PIC18F27Q43 PIC18F47Q43 PIC18F57Q43",

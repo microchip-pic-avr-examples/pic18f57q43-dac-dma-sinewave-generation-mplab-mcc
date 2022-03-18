@@ -6,7 +6,6 @@
 ## Related Documentation
 
 - [PIC18F57Q43 Data Sheet](https://www.microchip.com/DS40002147F)
-- [8-bit PIC MCU Peripheral Deep Dive - DAC Chapter](https://mu.microchip.com)
 
 ## Objective
 
@@ -122,16 +121,16 @@ Additional Links: [MCC Melody Technical Reference](https://onlinedocs.microchip.
 
 - **Pin Grid View**
 
+Verify DAC output on pin RA2
 
 ![pin_grid](images/pin_grid.png)
-
 <br />
 
 - **Pins**
 
-Verify DAC output on pin RA2
+Verify that pin RA2 is Analog
 
-![pins](images/pins.jpg)
+![pins](images/pins.png)
 <br />
 
 ## Summary
