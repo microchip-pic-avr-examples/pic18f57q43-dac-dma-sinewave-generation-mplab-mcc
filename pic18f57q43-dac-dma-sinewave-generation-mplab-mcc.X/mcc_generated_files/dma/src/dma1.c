@@ -38,20 +38,19 @@
 #include <xc.h>
 #include "../dma1.h"
 
-
 /**
   Section: DMA1 APIs
 */
 
 void DMA1_Initialize(void)
-{
+{   
     
     //DMA Instance Selection : 0x0
     DMASELECT = 0x0;
     //Source Address : 0x010000
     DMAnSSA = 0x010000;
-    //Destination Address : DAC1DATL
-    DMAnDSA = DAC1DATL;
+    //Destination Address : &DAC1DATL
+    DMAnDSA = &DAC1DATL;
     //SSTP not cleared; SMODE incremented; SMR Program Flash; DSTP not cleared; DMODE unchanged; 
     DMAnCON1 = 0xA;
     //Source Message Size : 250

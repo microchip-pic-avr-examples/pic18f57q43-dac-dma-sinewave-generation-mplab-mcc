@@ -8,7 +8,7 @@
  * @brief This is generated driver header for pins. 
  *        This header file provides APIs for all pins selected in the GUI.
  *
- * @version Driver Version  3.0.0
+ * @version Driver Version  3.1.0
 */
 
 /*
@@ -68,7 +68,7 @@
 #define IO_RA2_SetOpenDrain()       do { ODCONAbits.ODCA2 = 1; } while(0)
 #define IO_RA2_SetAnalogMode()      do { ANSELAbits.ANSELA2 = 1; } while(0)
 #define IO_RA2_SetDigitalMode()     do { ANSELAbits.ANSELA2 = 0; } while(0)
-
+   
 /**
  * @ingroup  pinsdriver
  * @brief GPIO and peripheral I/O initialization

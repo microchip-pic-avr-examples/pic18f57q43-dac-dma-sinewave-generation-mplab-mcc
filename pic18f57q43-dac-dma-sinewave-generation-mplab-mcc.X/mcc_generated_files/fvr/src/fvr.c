@@ -7,7 +7,7 @@
  * 
  * @brief This file contains the driver code for FVR module.
  * 
- * @version FVR Driver Version 2.01
+ * @version FVR Driver Version 2.0.1
 */
 
 /*

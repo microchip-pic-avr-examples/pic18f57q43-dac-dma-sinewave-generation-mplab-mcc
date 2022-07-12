@@ -7,7 +7,7 @@
  * 
  * @brief This file contains API prototypes and other datatypes for Interrupt Manager.
  *
- * @version Interrupt Manager Driver Version 2.03
+ * @version Interrupt Manager Driver Version 2.0.4
 */
 
 /*

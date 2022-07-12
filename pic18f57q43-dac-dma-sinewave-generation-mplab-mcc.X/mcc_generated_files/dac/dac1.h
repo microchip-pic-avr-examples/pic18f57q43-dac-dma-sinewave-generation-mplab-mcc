@@ -54,7 +54,7 @@ void DAC1_Initialize(void);
 
 /**
  * @ingroup dac1
- * @brief  his routine pass the digital input data intoDAC1 voltage reference control register.
+ * @brief  This routine pass the digital input data intoDAC1 voltage reference control register.
  * @param inputData - 8bit digital data to DAC1.
  * @return void
  */

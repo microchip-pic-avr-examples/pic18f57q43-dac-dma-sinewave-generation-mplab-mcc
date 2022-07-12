@@ -8,7 +8,7 @@
  * @brief This is generated driver implementation for pins. 
  *        This file provides implementations for pin APIs for all pins selected in the GUI.
  *
- * @version Driver Version 3.0.0
+ * @version Driver Version 3.1.0
 */
 
 /*
