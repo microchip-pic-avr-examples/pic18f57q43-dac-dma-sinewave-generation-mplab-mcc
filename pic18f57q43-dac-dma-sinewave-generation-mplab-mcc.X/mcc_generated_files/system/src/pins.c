@@ -8,11 +8,11 @@
  * @brief This is generated driver implementation for pins. 
  *        This file provides implementations for pin APIs for all pins selected in the GUI.
  *
- * @version Driver Version 3.1.0
+ * @version Driver Version 3.1.1
 */
 
 /*
-© [2022] Microchip Technology Inc. and its subsidiaries.
+© [2025] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -46,6 +46,15 @@ void PIN_MANAGER_Initialize(void)
     LATD = 0x0;
     LATE = 0x0;
     LATF = 0x0;
+    /**
+    ODx registers
+    */
+    ODCONA = 0x0;
+    ODCONB = 0x0;
+    ODCONC = 0x0;
+    ODCOND = 0x0;
+    ODCONE = 0x0;
+    ODCONF = 0x0;
 
     /**
     TRISx registers
@@ -77,23 +86,6 @@ void PIN_MANAGER_Initialize(void)
     WPUE = 0x0;
     WPUF = 0x0;
 
-    /**
-    RxyI2C registers
-    */
-    RB1I2C = 0x0;
-    RB2I2C = 0x0;
-    RC3I2C = 0x0;
-    RC4I2C = 0x0;
-
-    /**
-    ODx registers
-    */
-    ODCONA = 0x0;
-    ODCONB = 0x0;
-    ODCONC = 0x0;
-    ODCOND = 0x0;
-    ODCONE = 0x0;
-    ODCONF = 0x0;
 
     /**
     SLRCONx registers
@@ -114,6 +106,14 @@ void PIN_MANAGER_Initialize(void)
     INLVLD = 0xFF;
     INLVLE = 0xF;
     INLVLF = 0xFF;
+
+   /**
+    RxyI2C | RxyFEAT registers   
+    */
+    RB1I2C = 0x0;
+    RB2I2C = 0x0;
+    RC3I2C = 0x0;
+    RC4I2C = 0x0;
     /**
     PPS registers
     */

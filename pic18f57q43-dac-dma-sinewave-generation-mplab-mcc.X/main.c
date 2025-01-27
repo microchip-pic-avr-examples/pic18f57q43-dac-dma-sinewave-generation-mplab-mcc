@@ -7,11 +7,13 @@
  * 
  * @brief This is the generated driver implementation file for the MAIN driver.
  *
- * @version MAIN Driver Version 1.0.0
+ * @version MAIN Driver Version 1.0.2
+ *
+ * @version Package Version: 3.1.2
  */
 
 /*
-© [2022] Microchip Technology Inc. and its subsidiaries.
+© [2025] Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip 
     software and any derivatives exclusively with Microchip products. 
@@ -37,7 +39,7 @@
  * configuring DMA using MCC. If you wish to change location of LUT, update the same in 
  * DMAnSSA register as well(Refer APIs in dma1.c)
  */
-const uint8_t sineWaveLUT[] __at(0x010000) =
+const uint8_t sineWaveLUT[] =
 {
     0x80, 0x83, 0x86, 0x89, 0x8c, 0x8f, 0x93, 0x96,
     0x99, 0x9c, 0x9f, 0xa2, 0xa5, 0xa8, 0xab, 0xae,
@@ -80,14 +82,14 @@ const uint8_t sineWaveLUT[] __at(0x010000) =
 int main(void)
 {
     SYSTEM_Initialize();
-
+    DMA1_SetSourceAddress( (uint24_t)(sineWaveLUT));
+    DMA1_StartTransferWithTrigger();
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts 
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts 
     // Use the following macros to: 
 
     // Enable the Global Interrupts 
-    INTERRUPT_GlobalInterruptEnable();
-
+    INTERRUPT_GlobalInterruptEnable(); 
     // Disable the Global Interrupts 
     //INTERRUPT_GlobalInterruptDisable(); 
 
